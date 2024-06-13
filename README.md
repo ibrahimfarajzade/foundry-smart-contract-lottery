@@ -2,22 +2,29 @@
 
 ## About
 
-This code is to create a proveably random smart contract lottey.
+This code is to create a proveably random smart contract lottery.
 
-## What we want it to do?
+## Features
 
-1. Users can enter by paying for a ticket 
-   1. The ticket fees are goint to go to the winner during the draw
-2. After X period of time, the lottery will automatically draw a winner
-   1. And this will be done programatically 
-3. Using Chainlink VRF & Chainlink Automation
-   1. Chainlink VRF -> Randomness
-   2. Chainlink Automation -> Time based trigger
+1. **User Participation**
+   - Users can enter the lottery by purchasing a ticket.
+   - The ticket fees will be awarded to the winner during the draw.
 
-## Tests
+2. **Automated Winner Selection**
+   - A winner will be automatically drawn after a predetermined period.
+   - The process is entirely automated through smart contracts.
 
-1. Write some deploy scripts
-2. Write our tests
-   1. Work on a local chain
-   2. Forked Testnet
-   3. Forked Mainnet
+3. **Technologies Used**
+   - **Chainlink VRF**: Ensures randomness for the draw.
+   - **Chainlink Automation**: Triggers time-based events for the lottery.
+
+## Testing
+
+1. **Deployment Scripts**
+   - Create and run deployment scripts for the smart contracts.
+
+2. **Test Suite**
+   - Comprehensive tests on:
+     - Local blockchain
+     - Forked testnet
+     - Forked mainnet
