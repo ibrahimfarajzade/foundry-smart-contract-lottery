@@ -28,3 +28,12 @@ This code is to create a proveably random smart contract lottery.
      - Local blockchain
      - Forked testnet
      - Forked mainnet
+
+## Smart Contract Details
+
+- **Solidity Version**: 0.8.19
+- **License**: MIT
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
